@@ -1,0 +1,18 @@
+#titulo {
+        text-shadow:2 px, 2px, 5px gray;
+        margin-top: 2%;
+}
+
+#titulopcoes{
+    color:white;
+    background-color: rgb(43,43,255);
+    border-radius: 10px;
+    padding:10px;
+    margin-bottom:-10px;
+}
+
+#opcoes{
+border: 1px solid black;
+border-radius: 10px;
+padding:20px;
+}

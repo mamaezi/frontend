@@ -1,0 +1,47 @@
+#titulo{
+    text-shadow: 2px 2px 5px     gray;
+    margin-top: 2%;
+}
+
+#tituloopcoes{
+    color: white;
+    background-color: #0369D9;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: -10px;
+}
+
+#opcoes{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+#linhaUser{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#dados{
+  border: 1px outset black;
+  background-color: darkgrey;    
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+#linha{
+   border: 1px outset black;
+    background-color: #F0F8FF;   
+    text-align: center;
+}    
+.dados:nth-child(odd) {
+  border: 1px outset black;  
+  background: white;
+}
+
+.dados:nth-child(even) {
+ border: 1px outset black;   
+  background: lightgrey;
+
+}
