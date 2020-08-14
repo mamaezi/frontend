@@ -5,12 +5,20 @@
 
 #tituloopcoes{
     color: white;
-    background-color: #0369D9;
+    background-color: #ff6600;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: -10px;
 }
 
+#botao{
+    color: white;
+    background-color: #ff6600;
+    border-color: #ff6600;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: -10px;
+}
 #opcoes{
     border: 1px solid black;
     border-radius: 10px;

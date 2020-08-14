@@ -176,7 +176,7 @@ function preencheRelatorio(res){
 
 function imprimir(tipo){
    // converti o objeto pra uma string
-   alert (divisao);
+
    localStorage.setItem("Impressao",divisao);   // armazenei no local storage 
 
    if (tipo==1){

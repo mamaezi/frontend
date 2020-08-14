@@ -1,6 +1,10 @@
 var listaDeAgencias;
 var pos=0;
 
+var txtNovaData;   // armazenei no local storage
+var txtHora;   // armazenei no local storage
+var txtAG;   // armazenei no local storage
+  
 function carregarAgencias(){
     adicionarDiasData(1);
     fetch("http://localhost:8088/agencias")
@@ -80,6 +84,11 @@ function enviarDados(){
     var txtObs     = document.getElementById("txtObs").value;
     var txtAG      = listaAgencias[pos].id;
     
+    // converti o objeto pra uma string
+    localStorage.setItem("txtNovaData",txtNovaData);   // armazenei no local storage
+    localStorage.setItem("txtHora",txtHora);   // armazenei no local storage
+    localStorage.setItem("txtAg",txtAG.agencia);   // armazenei no local storage
+  
     var msgBody = {
         nomeCliente : txtNome,
         emailCliente: txtEmail,
@@ -116,9 +125,18 @@ function trataResultado(res){
 }
 
 function geraProtocolo(agendamento){
-    alert("Agendamento Concluido. Numero do Protocolo "+agendamento.numSeq);
 
+     alert("Agendamento Concluido. Numero do Protocolo "+agendamento.numSeq);
+     
+     // vou pra página principal
+        
+  //document.getElementById("resultProtocolo").innerHTML = agendamento.numSeq;
+  //document.getElementById("resultAgencia").innerHTML = agendamento.agencia.nomeAgencia;
+  //d//ocument.getElementById("resultData").innerHTML = agendamento.dataAgendamento;
+  //document.getElementById("resultHora").innerHTML = agendamento.horaAgendamento;
+  //document.getElementById("btn").click();
 }
+
 
 function adicionarDiasData(dias){
   var hoje        = new Date();

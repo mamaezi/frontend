@@ -1,5 +1,31 @@
-#titulo{
+#barra{
     color: #ff6600;
     text-shadow: 2px 2px 5px    black;
     margin-top: 2%;
+}
+#botao{
+    color: white;
+    background-color: #ff6600;
+    border-color: #ff6600;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: -10px;
+}
+
+#enviar{
+    color: white;
+    background-color: #ff6600;
+    border-color: #ff6600;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: -10px;
+}
+
+#btn{
+    color: white;
+    background-color: #ff6600;
+    border-color: #ff6600;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: -10px;
 }
